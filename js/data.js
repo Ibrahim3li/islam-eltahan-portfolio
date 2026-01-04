@@ -118,14 +118,14 @@ window.PORTFOLIO_PROJECTS = [
     titleKey: "p_cafe_title",
     metaKey: "p_cafe_meta",
     tags: ["Hospitality", "Fit-Out", "Lighting"],
-    thumb: "assets/images/cafes/cafe-01/after-01.jpg",
+    thumb: "assets/images/cafes/cafe-01/after-01.jpeg",
     overviewKey: "p_cafe_overview",
     scopeKeys: ["p_cafe_s1","p_cafe_s2","p_cafe_s3","p_cafe_s4"],
     highlightKeys: ["p_cafe_h1","p_cafe_h2","p_cafe_h3"],
     gallery: [
-      "assets/images/cafes/cafe-01/after-01.jpg",
-      "assets/images/cafes/cafe-01/after-02.jpg",
-      "assets/images/cafes/cafe-01/after-03.jpg"
+      "assets/images/cafes/cafe-01/after-01.jpeg",
+      "assets/images/cafes/cafe-01/after-02.jpeg",
+      "assets/images/cafes/cafe-01/after-03.jpeg"
     ]
   },
 
