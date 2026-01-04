@@ -1,0 +1,422 @@
+window.I18N = {
+  en: {
+    // Global
+    name: "Islam Eltahan",
+    rights: "All rights reserved.",
+    top_badge: "Executive Portfolio • Multi-Disciplinary Delivery",
+    projects_badge: "Selected Projects • Filter by Sector",
+    case_badge: "Case Study • Details & Gallery",
+
+            branch_badge: "فرع",
+branch_badge: "Branch",
+download_cv: "Download CV",
+    download_cl: "Cover Letter",
+    read_cl: "Read Cover Letter",
+
+    nav_about: "About",
+    nav_expertise: "Expertise",
+    nav_featured: "Featured",
+    nav_projects: "Projects",
+    nav_experience: "Experience",
+    nav_contact: "Contact",
+
+    hero_kicker: "Projects Manager • Fit-Out • Turnkey • Steel • Furniture",
+    hero_headline: "Executive Delivery of Premium Spaces",
+    hero_lead:
+      "Senior Projects Manager with 24+ years delivering high-end fit-out, turnkey construction, structural steel, and custom furniture projects across Saudi Arabia and Egypt.",
+
+    cta_projects: "Explore Projects",
+    cta_contact: "Request a Call",
+
+    stat_1_v: "24+ yrs",
+    stat_1_l: "Project Delivery",
+    stat_2_v: "SAR 50M+",
+    stat_2_l: "Budgets Managed",
+    stat_3_v: "Integrated",
+    stat_3_l: "Fit-Out + Steel + Furniture",
+
+    profile_title: "Senior Projects Manager • Fit-Out & Turnkey",
+    profile_loc: "Riyadh • Saudi Arabia",
+
+    deliver_title: "What I Deliver",
+    deliver_1: "End-to-end delivery & handover readiness",
+    deliver_2: "Budget control & value engineering (VE)",
+    deliver_3: "Multidisciplinary leadership (design • production • site)",
+    deliver_4: "Operations growth: workshops & supplier partnerships",
+    view_cases: "View Case Studies",
+
+    about_title: "Professional Profile",
+    about_desc:
+      "Proven expertise in project lifecycle management, stakeholder coordination, and execution of luxury villas, restaurants, cafés, retail branches, and specialized builds.",
+    sig_title: "Signature Strength",
+    sig_desc:
+      "Bridging three domains into one delivery system: Fit-Out, Metal Construction, and Custom Furniture — enabling turnkey projects with consistent quality and speed.",
+
+    pill_1: "Turnkey Delivery",
+    pill_2: "Budget Control",
+    pill_3: "Value Engineering",
+    pill_4: "Retail & Hospitality",
+    pill_5: "Structural Steel",
+    pill_6: "Custom Furniture",
+
+    quick_title: "Quick Info",
+    k_loc: "Location",
+    v_loc: "Riyadh, Saudi Arabia",
+    k_email: "Email",
+    k_phone: "Phone",
+    k_cert: "Certification",
+
+    exp_title: "Core Expertise",
+    exp_desc:
+      "Fit-Out • Turnkey • Structural Steel • Furniture Manufacturing, with executive leadership and operational growth.",
+    exp_c1_h: "Project & Construction",
+    exp_c1_1: "Lifecycle delivery & handover readiness",
+    exp_c1_2: "Schedule planning & milestone control",
+    exp_c1_3: "Stakeholder alignment",
+    exp_c2_h: "Commercial Control",
+    exp_c2_1: "Budgeting & cost control",
+    exp_c2_2: "BOQ / contracts / variations",
+    exp_c2_3: "Value engineering",
+    exp_c3_h: "Integrated Execution",
+    exp_c3_1: "Fit-out + metal works + custom furniture",
+    exp_c3_2: "Fabrication coordination & QA/QC",
+    exp_c3_3: "Finishing excellence",
+    exp_c4_h: "Leadership & Ops",
+    exp_c4_1: "Multidisciplinary teams (design/production/site)",
+    exp_c4_2: "KPI and resource planning",
+    exp_c4_3: "Supplier partnerships",
+
+    feat_title: "Featured Case Studies",
+    feat_desc: "A quick executive view — full details available in the Projects section.",
+    browse_all: "Browse All Projects",
+    back_top: "Back to Top",
+
+    timeline_title: "Experience Timeline",
+    timeline_desc:
+      "Leadership roles delivering luxury villas, cafés, restaurants, retail, and turnkey fit-out projects.",
+    t1_title: "Projects Manager • Lamsat Al Amara – Al Wahda Holding Group (Riyadh)",
+    t1_date: "03/2025 – Present",
+    t1_1: "Led end-to-end delivery of luxury villas, cafés, restaurants, and turnkey fit-out projects.",
+    t1_2: "Negotiated strategic supplier partnerships.",
+    t1_3: "Launched an in-house furniture production workshop (wood & metal).",
+    t2_title: "Fit-Out Manager & Head of Structural Steel Division • Zaid Al-Hussien Group (Riyadh)",
+    t2_date: "05/2013 – 08/2023",
+    t2_1: "Managed SAR 50M+ budgets with cost optimization and schedule compliance.",
+    t2_2: "Integrated fit-out, metal works, and custom furniture to streamline execution time.",
+
+    kpi_1_b: "Luxury",
+    kpi_1_s: "Villas • Premium finishing • Handover-ready",
+    kpi_2_b: "Retail",
+    kpi_2_s: "Multi-branch consistency & rollout execution",
+    kpi_3_b: "Integrated",
+    kpi_3_s: "Fit-out + Steel + Custom Furniture",
+
+    contact_title: "Let’s Work Together",
+    contact_desc: "For leadership roles, delivery partnerships, or project consultations — reach out.",
+    c_email: "Email",
+    c_phone: "Phone",
+    c_linkedin: "LinkedIn",
+    c_add_linkedin: "Open LinkedIn Profile",
+
+    how_title: "How to Update Projects",
+    how_desc:
+      "Replace images inside assets/images/ and edit project entries only in js/data.js. Layout stays untouched.",
+    footer_note: "Built for GitHub Pages • Fast • Responsive • Bilingual",
+
+    // Projects page
+    projects_title: "Projects",
+    projects_sub: "Click any project to open a full case study page.",
+    f_all: "All",
+    f_res: "Residential",
+    f_retail: "Retail (j.co)",
+    f_cafe: "Cafés",
+    f_tech: "Specialized",
+    back_home: "Back to Home",
+    all_projects: "All Projects",
+
+    // Project page
+    before: "Before",
+    after: "After",
+    overview: "Overview",
+    scope: "Scope of Work",
+    highlights: "Highlights",
+    gallery: "Gallery",
+    gallery_note: "Click any image to open in a new tab.",
+    back_projects: "Back to Projects",
+
+    // Project content keys
+    p_annex_title: "Annex Room – Before & After Transformation",
+    p_annex_meta: "Residential • Fit-Out • Turnkey Execution",
+    p_annex_overview:
+      "Full transformation from shell condition to a contemporary residential annex space with a TV wall feature, cladding details, and coordinated lighting.",
+    p_annex_s1: "Execution planning and trade sequencing",
+    p_annex_s2: "Wall/ceiling finishes and surface preparation",
+    p_annex_s3: "Custom TV wall feature and detailing",
+    p_annex_s4: "Lighting coordination (indirect and focal)",
+    p_annex_s5: "Entrance finishing and alignment",
+    p_annex_s6: "Final snagging and handover readiness",
+    p_annex_h1: "Strong before/after impact showcasing execution quality",
+    p_annex_h2: "Integrated detailing: cladding + lighting + focal wall",
+    p_annex_h3: "Turnkey mindset with clean handover finish",
+
+    p_jco_1_title: "j.co Branch – Fit-Out Execution (Branch 01)",
+    p_jco_1_meta: "Retail • Multi-Branch Consistency • Fit-Out",
+    p_jco_1_overview:
+      "Retail branch delivery within a chain rollout model, focusing on consistent finishing quality, schedule control, and procurement coordination.",
+    p_jco_s1: "Execution planning and trade sequencing",
+    p_jco_s2: "Vendor/subcontractor alignment and coordination",
+    p_jco_s3: "Material and finishing quality control checkpoints",
+    p_jco_s4: "Milestone tracking and handover readiness",
+    p_jco_h1: "Consistency-ready approach for chain rollouts",
+    p_jco_h2: "Trade coordination that protects schedule",
+    p_jco_h3: "QA/QC checkpoints for predictable quality",
+
+    p_cafe_title: "Café Fit-Out – Atmosphere & Function",
+    p_cafe_meta: "Hospitality • Fit-Out • Finishing Quality",
+    p_cafe_overview:
+      "Hospitality fit-out focusing on lighting mood, finish coordination, and operational functionality for daily service.",
+    p_cafe_s1: "Execution planning and sequencing",
+    p_cafe_s2: "Lighting coordination and mood setup",
+    p_cafe_s3: "Finishing coordination and snag closure",
+    p_cafe_s4: "Handover readiness support",
+    p_cafe_h1: "Atmosphere-first lighting and finishes",
+    p_cafe_h2: "Detail control for premium guest experience",
+
+    p_ph_title: "Protected Houses – Specialized Execution",
+    p_ph_meta: "Specialized • Execution • Coordination",
+    p_ph_overview:
+      "Specialized execution projects integrating structure, fit-out requirements, and coordination for functional performance.",
+    p_ph_s1: "Site coordination and execution planning",
+    p_ph_s2: "Trade interface management and approvals",
+    p_ph_s3: "Finishing and quality inspections",
+    p_ph_s4: "Close-out and handover readiness",
+    p_ph_h1: "Coordination-driven execution for specialized requirements",
+    p_ph_h2: "Quality-focused delivery and predictable outcomes",
+        p_villa_title: "Luxury Villa – Turnkey Fit-Out (Villa 01)",
+    p_villa_meta: "Residential • Luxury • Turnkey Execution",
+    p_villa_overview:
+      "Turnkey villa execution focused on premium finishes, coordination across trades, and handover-ready quality.",
+    p_villa_s1: "Execution planning and trade sequencing",
+    p_villa_s2: "Finishing coordination and quality checkpoints",
+    p_villa_s3: "Lighting, ceilings, and wall treatments coordination",
+    p_villa_s4: "Joinery / custom details integration",
+    p_villa_s5: "Snagging and final handover readiness",
+    p_villa_h1: "Luxury finishing standard and clean detailing",
+    p_villa_h2: "Trade coordination to protect schedule and quality",
+    p_villa_h3: "Turnkey mindset with handover-ready delivery",
+
+  },
+    // j.co Retail Chain (Group)
+    p_jco_chain_title: "j.co Retail Chain – Multi-Branch Fit-Out",
+    p_jco_chain_meta: "Retail • Multi-Branch Consistency • Fit-Out Rollout",
+    p_jco_chain_overview:
+      "Multi-branch rollout execution for j.co, focusing on consistent quality, site coordination, and handover-ready delivery across branches.",
+    jco_b1: "Branch 01",
+    jco_b2: "Branch 02",
+    jco_b3: "Branch 03",
+
+  ar: {
+    name: "إسلام الطحان",
+    rights: "جميع الحقوق محفوظة.",
+    top_badge: "بورتفوليو احترافي • تنفيذ متعدد التخصصات",
+    projects_badge: "نماذج مشاريع • فلترة حسب المجال",
+    case_badge: "دراسة حالة • تفاصيل ومعرض صور",
+
+    download_cv: "تحميل السيرة الذاتية",
+    download_cl: "خطاب التقديم",
+    read_cl: "قراءة خطاب التقديم",
+
+    nav_about: "نبذة",
+    nav_expertise: "الخبرات",
+    nav_featured: "مختارات",
+    nav_projects: "المشاريع",
+    nav_experience: "المسار المهني",
+    nav_contact: "تواصل",
+
+    hero_kicker: "مدير مشاريع • تشطيب • تسليم مفتاح • ستيل • أثاث",
+    hero_headline: "تنفيذ فاخر بمستوى إداري",
+    hero_lead:
+      "مدير مشاريع أول بخبرة تزيد عن 24 عامًا في تنفيذ التشطيبات والتسليم المتكامل وأعمال الستيل والأثاث داخل السعودية ومصر.",
+
+    cta_projects: "استعراض المشاريع",
+    cta_contact: "اطلب مكالمة",
+
+    stat_1_v: "24+ سنة",
+    stat_1_l: "خبرة تنفيذ",
+    stat_2_v: "+50M SAR",
+    stat_2_l: "إدارة ميزانيات",
+    stat_3_v: "تنفيذ متكامل",
+    stat_3_l: "تشطيب + ستيل + أثاث",
+
+    profile_title: "مدير مشاريع أول • تشطيب وتسليم متكامل",
+    profile_loc: "الرياض • السعودية",
+
+    deliver_title: "ماذا أقدّم",
+    deliver_1: "تنفيذ كامل حتى التسليم النهائي",
+    deliver_2: "ضبط التكاليف وهندسة القيمة",
+    deliver_3: "قيادة فرق متعددة التخصصات (تصميم • تصنيع • موقع)",
+    deliver_4: "تطوير التشغيل: ورش وشراكات موردين",
+    view_cases: "عرض دراسات الحالة",
+
+    about_title: "الملف المهني",
+    about_desc:
+      "خبرة قوية في إدارة دورة حياة المشروع والتنسيق مع أصحاب المصلحة وتنفيذ الفلل الفاخرة والمطاعم والكافيهات والفروع التجارية والمشاريع المتخصصة.",
+    sig_title: "نقطة القوة الأساسية",
+    sig_desc:
+      "دمج ثلاثة مجالات في منظومة تنفيذ واحدة: التشطيب، أعمال المعادن، والأثاث — لتحقيق تسليم متكامل بجودة وسرعة ثابتة.",
+
+    pill_1: "تسليم متكامل",
+    pill_2: "ضبط ميزانيات",
+    pill_3: "هندسة قيمة",
+    pill_4: "تجاري وضيافة",
+    pill_5: "ستيل إنشائي",
+    pill_6: "أثاث مخصص",
+
+    quick_title: "معلومات سريعة",
+    k_loc: "الموقع",
+    v_loc: "الرياض، السعودية",
+    k_email: "البريد",
+    k_phone: "الهاتف",
+    k_cert: "الشهادة",
+
+    exp_title: "الخبرات الأساسية",
+    exp_desc:
+      "تشطيب • تسليم مفتاح • ستيل • تصنيع أثاث، مع قيادة تنفيذية وتطوير تشغيلي.",
+    exp_c1_h: "إدارة التنفيذ",
+    exp_c1_1: "إدارة دورة التنفيذ حتى التسليم",
+    exp_c1_2: "تخطيط الجداول ومتابعة المراحل",
+    exp_c1_3: "تنسيق أصحاب المصلحة",
+    exp_c2_h: "التحكم التجاري",
+    exp_c2_1: "ميزانيات وضبط تكاليف",
+    exp_c2_2: "كميات/عقود/تغييرات",
+    exp_c2_3: "هندسة قيمة",
+    exp_c3_h: "تنفيذ متكامل",
+    exp_c3_1: "تشطيب + معادن + أثاث مخصص",
+    exp_c3_2: "تنسيق التصنيع وضبط الجودة",
+    exp_c3_3: "تفاصيل تشطيب عالية",
+    exp_c4_h: "قيادة وتشغيل",
+    exp_c4_1: "قيادة فرق متعددة (تصميم/تصنيع/موقع)",
+    exp_c4_2: "تخطيط الموارد ومؤشرات الأداء",
+    exp_c4_3: "إدارة الموردين والشراكات",
+
+    feat_title: "مختارات مميزة",
+    feat_desc: "نظرة سريعة — تفاصيل كاملة داخل صفحة المشاريع.",
+    browse_all: "عرض كل المشاريع",
+    back_top: "عودة للأعلى",
+
+    timeline_title: "المسار المهني",
+    timeline_desc:
+      "أدوار قيادية في تنفيذ الفلل والكافيهات والمطاعم والفروع التجارية ومشاريع التسليم المتكامل.",
+    t1_title: "مدير مشاريع • لمسات العمارة – مجموعة الوحدة القابضة (الرياض)",
+    t1_date: "03/2025 – حتى الآن",
+    t1_1: "إدارة تنفيذ مشاريع فلل فاخرة وكافيهات ومطاعم وتشطيب وتسليم متكامل.",
+    t1_2: "التفاوض وبناء شراكات استراتيجية مع الموردين.",
+    t1_3: "إطلاق ورشة تصنيع أثاث داخلية (خشب ومعدن).",
+    t2_title: "مدير تشطيب ورئيس قسم الستيل • مجموعة زايد الحسين (الرياض)",
+    t2_date: "05/2013 – 08/2023",
+    t2_1: "إدارة ميزانيات تتجاوز 50 مليون ريال مع تحسين التكلفة والالتزام بالجدول.",
+    t2_2: "دمج التشطيب وأعمال المعادن والأثاث لتقليل مدة التنفيذ.",
+
+    kpi_1_b: "فلل",
+    kpi_1_s: "تشطيب فاخر • جاهزية تسليم",
+    kpi_2_b: "فروع",
+    kpi_2_s: "توحيد الجودة عبر عدة مواقع",
+    kpi_3_b: "تكامل",
+    kpi_3_s: "تشطيب + ستيل + أثاث",
+
+    contact_title: "لنتعاون",
+    contact_desc: "للوظائف القيادية أو الشراكات أو الاستشارات — تواصل معي.",
+    c_email: "البريد",
+    c_phone: "الهاتف",
+    c_linkedin: "لينكدإن",
+    c_add_linkedin: "فتح حساب لينكدإن",
+
+    how_title: "كيفية تحديث المشاريع",
+    how_desc:
+      "استبدل الصور داخل assets/images/ وعدّل بيانات المشاريع فقط داخل js/data.js دون تغيير التصميم.",
+    footer_note: "جاهز لـ GitHub Pages • سريع • متجاوب • عربي/إنجليزي",
+
+    projects_title: "المشاريع",
+    projects_sub: "اضغط على أي مشروع لفتح صفحة التفاصيل.",
+    f_all: "الكل",
+    f_res: "سكني",
+    f_retail: "فروع (j.co)",
+    f_cafe: "كافيهات",
+    f_tech: "متخصص",
+    back_home: "العودة للرئيسية",
+    all_projects: "كل المشاريع",
+
+    before: "قبل",
+    after: "بعد",
+    overview: "نظرة عامة",
+    scope: "نطاق العمل",
+    highlights: "أبرز النقاط",
+    gallery: "معرض الصور",
+    gallery_note: "اضغط على أي صورة لفتحها في نافذة جديدة.",
+    back_projects: "عودة للمشاريع",
+
+    p_annex_title: "غرفة ملحق – قبل وبعد التنفيذ",
+    p_annex_meta: "سكني • تشطيب • تسليم متكامل",
+    p_annex_overview:
+      "تحويل كامل من حالة خام إلى مساحة ملحق سكنية عصرية مع جدار تلفزيون وتفاصيل تشطيب وتنسيق إضاءة.",
+    p_annex_s1: "تخطيط التنفيذ وتسلسل الأعمال",
+    p_annex_s2: "أعمال تجهيز الأسطح وتشطيبات الحوائط/السقف",
+    p_annex_s3: "تنفيذ جدار التلفزيون والتفاصيل",
+    p_annex_s4: "تنسيق الإضاءة (مخفية وبؤرية)",
+    p_annex_s5: "تشطيبات المدخل وضبط المحاور",
+    p_annex_s6: "إغلاق الملاحظات وتجهيز التسليم",
+    p_annex_h1: "فرق واضح قبل/بعد يوضح جودة التنفيذ",
+    p_annex_h2: "تكامل التفاصيل: تشطيب + إضاءة + جدار مميز",
+    p_annex_h3: "فكر تسليم متكامل بجودة نهائية",
+
+    p_jco_1_title: "فرع j.co – تنفيذ تشطيب (فرع 01)",
+    p_jco_1_meta: "تجاري • توحيد جودة • تشطيب",
+    p_jco_1_overview:
+      "تنفيذ فرع ضمن نموذج سلسلة فروع مع التركيز على توحيد الجودة وضبط الجدول وتنسيق المشتريات.",
+    p_jco_s1: "تخطيط التنفيذ وتسلسل الأعمال",
+    p_jco_s2: "تنسيق المقاولين/الموردين",
+    p_jco_s3: "نقاط ضبط جودة للمواد والتشطيبات",
+    p_jco_s4: "متابعة المراحل وتجهيز التسليم",
+    p_jco_h1: "منهج جاهز لتكرار الجودة عبر السلسلة",
+    p_jco_h2: "تنسيق أعمال يحمي الجدول الزمني",
+    p_jco_h3: "نقاط QA/QC لنتائج متوقعة",
+
+    p_cafe_title: "كافيه – أجواء ووظيفة",
+    p_cafe_meta: "ضيافة • تشطيب • جودة تشطيبات",
+    p_cafe_overview:
+      "تشطيب كافيه مع التركيز على الإضاءة والأجواء وتنسيق التشطيبات لتحقيق تشغيل يومي فعّال.",
+    p_cafe_s1: "تخطيط التنفيذ وتسلسل الأعمال",
+    p_cafe_s2: "تنسيق الإضاءة والأجواء",
+    p_cafe_s3: "تنسيق التشطيبات وإغلاق الملاحظات",
+    p_cafe_s4: "دعم جاهزية التسليم",
+    p_cafe_h1: "تركيز على الأجواء عبر الإضاءة والتشطيب",
+    p_cafe_h2: "تحكم بالتفاصيل لتجربة ضيافة ممتازة",
+
+    p_ph_title: "البيوت المحمية – تنفيذ متخصص",
+    p_ph_meta: "متخصص • تنفيذ • تنسيق",
+    p_ph_overview:
+      "مشاريع تنفيذ متخصصة تجمع بين المتطلبات الإنشائية ومتطلبات التشطيب والتنسيق لتحقيق أداء وظيفي.",
+    p_ph_s1: "تنسيق الموقع وتخطيط التنفيذ",
+    p_ph_s2: "إدارة نقاط التداخل والموافقات",
+    p_ph_s3: "تفتيشات الجودة والتشطيبات",
+    p_ph_s4: "إغلاق وتسليم",
+    p_ph_h1: "تنفيذ قائم على التنسيق لمتطلبات خاصة",
+    p_ph_h2: "تسليم بجودة واستقرار نتائج",
+        p_villa_title: "فيلا فاخرة – تشطيب وتسليم متكامل (فيلا 01)",
+    p_villa_meta: "سكني • فاخر • تنفيذ وتسليم متكامل",
+    p_villa_overview:
+      "تنفيذ فيلا بنظام التسليم المتكامل مع التركيز على التشطيبات الفاخرة وتنسيق الأعمال وجودة التسليم النهائي.",
+    p_villa_s1: "تخطيط التنفيذ وتسلسل الأعمال",
+    p_villa_s2: "تنسيق التشطيبات ونقاط ضبط الجودة",
+    p_villa_s3: "تنسيق الإضاءة والأسقف ومعالجات الحوائط",
+    p_villa_s4: "دمج تفاصيل النجارة/العناصر المخصصة",
+    p_villa_s5: "إغلاق الملاحظات وتجهيز التسليم",
+    p_villa_h1: "مستوى تشطيب فاخر وتفاصيل نظيفة",
+    p_villa_h2: "تنسيق أعمال يحمي الجدول والجودة",
+    p_villa_h3: "فكر تسليم متكامل بجودة نهائية",
+
+  }
+};
+
+window.getLang = () => localStorage.getItem("lang") || "en";
+window.setLang = (lang) => localStorage.setItem("lang", lang);

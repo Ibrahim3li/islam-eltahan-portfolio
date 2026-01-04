@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project | Islam Eltahan</title>
+  <meta name="description" content="Project case study" />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body dir="ltr">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="badge" data-i18n="case_badge">Case Study • Details & Gallery</div>
+      <div class="top-actions">
+        <a class="tlink" href="projects.html" data-i18n="all_projects">All Projects</a>
+        <span class="sep">•</span>
+        <a class="tlink" href="assets/files/CV.pdf" target="_blank" rel="noopener" data-i18n="download_cv">Download CV</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand-mark"></span>
+        <span class="brand-text" data-i18n="name">Islam Eltahan</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html#about" data-i18n="nav_about">About</a>
+        <a href="index.html#expertise" data-i18n="nav_expertise">Expertise</a>
+        <a class="active" href="projects.html" data-i18n="nav_projects">Projects</a>
+        <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="nav-right">
+        <button class="lang-btn" type="button" data-lang="en">EN</button>
+        <button class="lang-btn" type="button" data-lang="ar">ع</button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 id="pTitle">Project Title</h2>
+        <p id="pMeta" class="muted"></p>
+      </div>
+
+      <!-- Before/After Slider -->
+      <div class="reveal">
+        <div class="ba-slider" id="baSlider" hidden>
+          <div class="ba-wrap">
+            <img id="baBefore" alt="Before" />
+            <div class="ba-after">
+              <img id="baAfter" alt="After" />
+            </div>
+            <input id="baRange" type="range" min="5" max="95" value="50" aria-label="Before After Slider" />
+          </div>
+          <div class="ba-labels">
+            <span data-i18n="before">Before</span>
+            <span data-i18n="after">After</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-grid reveal delay-1">
+        <div class="card">
+          <h4 data-i18n="overview">Overview</h4>
+          <p id="pOverview" class="muted"></p>
+        </div>
+        <div class="card">
+          <h4 data-i18n="scope">Scope of Work</h4>
+          <ul id="pScope" class="list"></ul>
+        </div>
+        <div class="card">
+          <h4 data-i18n="highlights">Highlights</h4>
+          <ul id="pHighlights" class="list"></ul>
+        </div>
+      </div>
+
+      <div class="section-head reveal" style="margin-top:22px">
+        <h2 style="font-size:20px;margin:0" data-i18n="gallery">Gallery</h2>
+        <p class="muted" style="margin:6px 0 0" data-i18n="gallery_note">Click any image to open in a new tab.</p>
+      </div>
+
+      <div class="modal-gallery reveal delay-1" id="pGallery"></div>
+
+      <div class="sub-cta reveal">
+        <a class="btn ghost" href="projects.html" data-i18n="back_projects">Back to Projects</a>
+        <a class="btn primary" href="index.html#contact" data-i18n="nav_contact">Contact</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> <span data-i18n="name">Islam Eltahan</span>. <span data-i18n="rights">All rights reserved.</span></div>
+      <div class="muted"><a href="index.html" data-i18n="back_home">Back to Home</a></div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

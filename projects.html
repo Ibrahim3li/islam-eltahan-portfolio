@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Islam Eltahan</title>
+  <meta name="description" content="Selected projects: Annex room before/after, j.co branches, cafés, and protected houses." />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body dir="ltr">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="badge" data-i18n="projects_badge">Selected Projects • Filter by Sector</div>
+      <div class="top-actions">
+        <a class="tlink" href="index.html#contact" data-i18n="nav_contact">Contact</a>
+        <span class="sep">•</span>
+        <a class="tlink" href="assets/files/CV.pdf" target="_blank" rel="noopener" data-i18n="download_cv">Download CV</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand-mark"></span>
+        <span class="brand-text" data-i18n="name">Islam Eltahan</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html#about" data-i18n="nav_about">About</a>
+        <a href="index.html#expertise" data-i18n="nav_expertise">Expertise</a>
+        <a class="active" href="projects.html" data-i18n="nav_projects">Projects</a>
+        <a href="index.html#experience" data-i18n="nav_experience">Experience</a>
+        <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="nav-right">
+        <button class="lang-btn" type="button" data-lang="en">EN</button>
+        <button class="lang-btn" type="button" data-lang="ar">ع</button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 data-i18n="projects_title">Projects</h2>
+        <p class="muted" data-i18n="projects_sub">Click any project to open a full case study page.</p>
+      </div>
+
+      <div class="filters reveal">
+        <button class="chip active" data-filter="all" data-i18n="f_all">All</button>
+        <button class="chip" data-filter="residential" data-i18n="f_res">Residential</button>
+        <button class="chip" data-filter="retail" data-i18n="f_retail">Retail (j.co)</button>
+        <button class="chip" data-filter="cafe" data-i18n="f_cafe">Cafés</button>
+        <button class="chip" data-filter="technical" data-i18n="f_tech">Specialized</button>
+      </div>
+
+      <div id="projectsGrid" class="projects-grid reveal delay-1"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> <span data-i18n="name">Islam Eltahan</span>. <span data-i18n="rights">All rights reserved.</span></div>
+      <div class="muted"><a href="index.html" data-i18n="back_home">Back to Home</a></div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
